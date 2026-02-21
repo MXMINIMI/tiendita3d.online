@@ -1,8 +1,143 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-Tiendita3d
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda 3D Online</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00e0ff;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00e0ff;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: #00e0ff;
+      color: #111;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #111;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .card {
+      background: #222;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #00e0ff;
+    }
+    .card p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-Hola
+  <header>
+    <h1>Impresión 3D Store</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Diseña. Crea. Imprime.</h2>
+    <p>Explora nuestra colección de modelos 3D y filamentos premium para dar vida a tus ideas.</p>
+    <a href="#" class="btn">Ver Catálogo</a>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/250x200" alt="Producto 3D">
+      <h3>Figura Personalizada</h3>
+      <p>Imprime tu personaje favorito en alta calidad.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x200" alt="Filamento PLA">
+      <h3>Filamento PLA Premium</h3>
+      <p>Colores vibrantes y resistencia superior.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x200" alt="Mini Car">
+      <h3>Mini Car 3D</h3>
+      <p>Modelos coleccionables con detalles únicos.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Impresión 3D Store - Todos los derechos reservados</p>
+  </footer>
 </body>
-</html
+</html>
