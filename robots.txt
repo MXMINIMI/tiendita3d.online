@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tiendita3d.Online/sitemap.xml
